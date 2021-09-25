@@ -10,6 +10,6 @@ namespace APARecipe.Services
     public interface IedaAPI
     {
         [Get("GET /api/menu-items/v2/search")]
-        Task<HttpResponseMessage> GetEpisodesAsync();
+        Task<HttpResponseMessage> GetRecipeAsync();
     }
 }
