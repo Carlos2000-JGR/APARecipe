@@ -24,7 +24,7 @@ namespace APARecipe.Services
 
         public async Task<RecipeList> GetEpisodesAsync()
         {
-            var response = await _aniApi.GetEpisodesAsync();
+            var response = await _aniApi.GetRecipeAsync();
 
             if (response.IsSuccessStatusCode)
             {
